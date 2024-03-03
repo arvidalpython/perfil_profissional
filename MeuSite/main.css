@@ -1,0 +1,96 @@
+
+.caixadosite{
+    width: 100%;
+    height: auto;
+    background: #dfe3e6;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:normal;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.container{
+    width: auto;
+    height: auto;
+    background: #fff;
+    border-radius: 20px;
+}
+#foto{
+    width: 150px;
+    height: auto;
+    padding: 2px;
+    margin-left: 70px;
+    border-radius: 30px;
+    position: relative;
+    display:flex;
+    top: -90px;
+    background-color: #fff;
+}
+
+body{
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cabeça{
+    padding: 1px 0;
+    background-color: #646464;
+}
+
+.texto-cabeça{
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+}
+
+.container h1{
+    text-align: center;
+    display: center;
+    top: -30px;
+}
+
+.container img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+section{
+    align-items: first baseline;
+}
+
+h5{
+    text-align: center;
+}
+
+.sobre{
+    width: 900px;
+    text-align: justify;
+    margin-left: 42px;
+}
+
+form textarea{
+    height: 180px;
+}
+
+form button{
+    background-color: #182C61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #3352a7;
+}
+
+.contact{
+    display:inline;
+    align-items: center;
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+}
